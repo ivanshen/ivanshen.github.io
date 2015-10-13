@@ -1,0 +1,166 @@
+@font-face{
+   font-family:"PTSans";
+    src: url("PTC55F.ttf");
+}
+body{
+    font-family: PTSans;
+}
+header{
+    margin: 10;
+    font-family: OSPDIN;
+	font-size: 30px;
+}
+.navbar-default{
+    background-color:transparent;
+    height: 60px;
+    padding-top: 0;
+    font-size: 18;
+}
+.navbar-collapse {
+ background:transparent;
+}
+.navbar-nav a{
+    margin-top:6px;
+    color:white!important;
+}
+.navbar-brand{
+    margin-top:4px;
+    margin-right:-100px;
+    color: white!important;
+    font-size: 23;
+}
+.navbar-brand:hover {color:black!important; }
+ul.nav a:hover { color:black!important; }
+
+.jumbotron_1{
+    margin-top: -20;
+    background-image: url(toronto.jpg);
+    background-attachment:fixed;
+    background-size:cover;
+    text-align: center;
+}
+.jumbotron_2{
+    background-color:#008B8B ;
+    color: #FAF0E6;
+    font-family: Arial, sans-serif;
+    padding-bottom: 50;
+}
+.About_me{
+    opacity: 0;
+}
+@media all and (min-width:850px){
+     .jumbotron_1 h1{
+        font-size:120px;
+        padding-bottom: 150;
+        color: floralwhite;
+        margin-top:500px;
+        margin-bottom:-20px;
+    }
+    .jumbotron_2 h2{
+        font-size: 33;
+        margin-left: 5vw;
+        margin-top: 40;
+        text-align: justify;
+        line-height: inherit;
+    }
+    .jumbotron_2 h3{
+        font-size: 30;
+        margin-top: 30;
+        margin-left:2vw;
+        text-align: center;
+    }
+}
+@media all and (max-width:850px) and (min-width:500px){
+    .jumbotron_1 h1{
+        font-size:120px;
+        padding-bottom: 150;
+        color: floralwhite;
+        margin-top: 500px;
+        margin-bottom:-20px;
+    }
+    .jumbotron_2 h2{
+        font-size: 25;
+        margin-right:;
+        margin-top: 40;
+        margin-left:5vw;
+        text-align: justify;
+        line-height: inherit;
+    }
+    .jumbotron_2 h3{
+        font-size: 25;
+        margin-top: 30;
+        margin-right:vw;
+        text-align: center;
+    }
+}
+@media all and (max-width:500px) and (min-width: 350px){
+
+    .jumbotron_1 h1{
+        font-size:90px;
+        padding-bottom: 100;
+        color: floralwhite;
+        margin-top:450px;
+        margin-bottom:-10px;
+    }
+    .jumbotron_2 h2{
+        font-size: 22;
+        margin-right:20;
+        margin-top: 40;
+        margin-left:5vw;
+        text-align: center;
+        line-height: inherit;
+    }
+    .jumbotron_2 h3{
+        font-size: 22;
+        margin-top: 30;
+        margin-left:5vw;
+        text-align: center;
+    }
+}
+@media all and (max-width: 350px) and (min-width: 300px){
+
+    .jumbotron_1 h1{
+        font-size:90px;
+        padding-bottom: 100;
+        color: floralwhite;
+        margin-top:450px;
+        margin-bottom:-10px;
+    }
+    .jumbotron_2 h2{
+        font-size: 20;
+        margin-right:20;
+        margin-top: 40;
+        margin-left:5vw;
+        text-align: center;
+        line-height: inherit;
+    }
+    .jumbotron_2 h3{
+        font-size: 20;
+        margin-top: 30;
+        margin-left:5vw;
+        text-align: center;
+    }
+}
+@media all and (max-width: 300px){
+    .jumbotron_1 h1{
+        font-size:90px;
+        padding-bottom: 100;
+        color: floralwhite;
+        margin-top:450px;
+        margin-bottom:-10px;
+    }
+    .jumbotron_2 h2{
+        font-size: 15;
+        margin-right:20;
+        margin-top: 40;
+        margin-left:5vw;
+        text-align: center;
+        line-height: inherit;
+    }
+    .jumbotron_2 h3{
+        font-size: 15;
+        margin-top: 30;
+        margin-left:5vw;
+        text-align: center;
+    }
+}
