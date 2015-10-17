@@ -168,10 +168,10 @@ ul.nav a:hover { color:black!important; }
         text-align: center;
     }
 }
-@media all and (max-height: 480px){
+@media all and (max-height: 650px){
     .jumbotron_1 h1{
         font-size: 80px;
-        margin-top: 250px;
+        margin-top: 310px;
         padding-bottom: 50;
     }
 }
