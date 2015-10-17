@@ -17,7 +17,7 @@ header{
     font-size: 18;
 }
 .navbar-collapse {
- background:darkslategray;
+ background:transparent;
 }
 .navbar-nav a{
     margin-top:6px;
