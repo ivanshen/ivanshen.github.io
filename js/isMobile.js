@@ -1,6 +1,15 @@
 function isMobile() {
 return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 }
+if (isMobile()){
+jQuery(function($) {
+    var divs = $('About_me');
+    divs.css({
+        'opacity' : 1
+        });
+    });
+}
+    
 
 if (!isMobile()) {
 jQuery(function($) {
@@ -12,7 +21,6 @@ jQuery(function($) {
         }); 
     });
 });
-
 jQuery(function($) {
     var divs = $('.Intro_1');
     $(window).on('scroll', function() {
