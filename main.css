@@ -17,7 +17,7 @@ header{
     font-size: 18;
 }
 .navbar-collapse {
- background:darkslategray;
+ background:transparent;
 }
 .navbar-nav a{
     margin-top:6px;
@@ -173,5 +173,9 @@ ul.nav a:hover { color:black!important; }
         font-size: 80px;
         margin-top: 310px;
         padding-bottom: 50;
+    }
+    .navbar-collapse{
+    	background: darkslategray;
+    }
     }
 }
