@@ -1,6 +1,6 @@
 @font-face{
    font-family:"PTSans";
-    src: url("PTC55F.ttf");
+    src: url("fonts/PTC55F.ttf");
 }
 body{
     font-family: PTSans;
@@ -34,16 +34,19 @@ ul.nav a:hover { color:black!important; }
 
 .jumbotron_1{
     margin-top: -20;
-    background-image: url(toronto.jpg);
-    background-attachment:fixed;
+    background-image: url(img/1920x1080.jpg);
+    background-attachment: fixed;
+    background-clip: border-box;
     background-size:cover;
     text-align: center;
+    text-rendering: optimizeSpeed;
 }
 .jumbotron_2{
     background-color:#008B8B ;
     color: #FAF0E6;
     font-family: Arial, sans-serif;
     padding-bottom: 50;
+    text-rendering: optimizeSpeed;
 }
 .About_me{
     opacity: 0;
@@ -117,6 +120,7 @@ ul.nav a:hover { color:black!important; }
         text-align: center;
     }
 }
+
 @media all and (max-width: 350px) and (min-width: 300px){
 
     .jumbotron_1 h1{
