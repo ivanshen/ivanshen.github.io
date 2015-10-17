@@ -3,7 +3,7 @@ return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(nav
 }
 if (isMobile()){
 jQuery(function($) {
-    var divs = $('About_me');
+    var divs = $('.About_me');
     divs.css({
         'opacity' : 1
         });
