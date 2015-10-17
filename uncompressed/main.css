@@ -48,9 +48,6 @@ ul.nav a:hover { color:black!important; }
     padding-bottom: 50;
     text-rendering: optimizeSpeed;
 }
-.About_me{
-    opacity: 0;
-}
 @media all and (min-width:850px){
      .jumbotron_1 h1{
         font-size:120px;
