@@ -1,0 +1,37 @@
+li {
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: 1em;
+}
+
+.card {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background: #2f3238;
+    margin-bottom: 50px;
+}
+.card .title {
+  line-height: 3rem;
+  font-size: 1.5rem;
+  font-weight: 300; 
+}
+.card .content {
+  padding: 1.1rem;
+  font-weight: 300; 
+}
+.card p {
+  margin: 0; 
+}
+.card .action {
+  border-top: 1px solid rgba(160, 160, 160, 0.2);
+  padding: 1.3rem; 
+}
+.card a {
+  color: #3498db;
+  transition: color 0.3s ease;
+  text-transform: uppercase;
+  text-decoration: none; 
+}
+.card a:hover {
+    color:#1a6598;
+}
