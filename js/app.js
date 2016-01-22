@@ -40,4 +40,11 @@ app.controller('ProjectController', function ($scope){
         }
     };
 });
+
+app.directive('copyRight', function (){
+    return{
+        restrict: 'E',
+        templateUrl: 'views/copyright.html'
+    }
+});
     
