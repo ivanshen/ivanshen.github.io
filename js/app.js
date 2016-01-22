@@ -21,12 +21,12 @@ app.controller('ProjectController', function ($scope){
         BabyBuddy: {
             "title": "BabyBuddy",
             "description": 'An educational resource for pregnant women.',
-            "link": 'ivanshen.me/babybuddy'
+            "link": 'http://ivanshen.me/babybuddy'
         },
         SwapWithMe: {
             "title": 'SwapWithMe',
             "description": 'A platform for students to sell or swap their textbooks with other students.',
-            link: 'swapwithme.meteor.com'
+            link: 'http://swapwithme.meteor.com'
         },
         HelpMeUp: {
             "title": 'Help Me Up',
