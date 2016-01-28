@@ -37,7 +37,12 @@ app.controller('ProjectController', function ($scope){
             "title": "Who Are You Really?",
             "description":"A learning styles quiz that breaks down a user’s best learning styles in percentages.",
             "link": "https://github.com/ivanshen/Who-Are-You-Really"
-        }
+        },
+        Se7en: {
+            "title":"Se7en",
+            "description":"A fun and addicting web game to test your arithmetic speed!",
+            "link":"http://ivanshen.me/Se7en/"
+        }    
     };
 });
 
