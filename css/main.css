@@ -52,6 +52,13 @@ body {
 	background: #3c414a;
 	color: #fff;
 }
+.footer{
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
+}
 
 
 @media screen and (max-width: 465px) {

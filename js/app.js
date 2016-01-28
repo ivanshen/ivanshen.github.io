@@ -42,7 +42,7 @@ app.controller('ProjectController', function ($scope){
             "title":"Se7en",
             "description":"A fun and addicting web game to test your arithmetic speed!",
             "link":"http://ivanshen.me/Se7en/"
-        }    
+        }
     };
 });
 
