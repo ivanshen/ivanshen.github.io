@@ -9,7 +9,8 @@ app.config(function($routeProvider) {
             controller: 'ProjectController'
     })
         .when('/blog', {
-            templateUrl: 'views/blog.html'
+            templateUrl: 'views/blog.html',
+            controller: 'BlogController'
     })
         .otherwise({
             redirectTo: '/'
@@ -44,6 +45,17 @@ app.controller('ProjectController', function ($scope){
             "link":"http://ivanshen.me/Se7en/"
         }
     };
+});
+app.controller('BlogController', function($scope, $http){
+    $scope.showContent = false;
+   $http.get("https://api.mongolab.com/api/1/databases/blog/collections/posts?apiKey=1JGFkEE1S4UmGb79ypO0VXoSzJtGmUj3").success(function(data) {
+       $scope.getResult = data;
+    });
+    $scope.toggleContent = function(data){
+        $scope.title = data.blog.title;
+        $scope.content = data.blog.content;
+        $scope.showContent = true;
+    }
 });
 
 app.directive('copyRight', function (){
