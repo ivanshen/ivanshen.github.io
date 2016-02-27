@@ -1,5 +1,5 @@
 <ol class="blog">
-    <li ng-repeat="blogs in getResult" ng-hide="showContent"><a ng-click="toggleContent(blogs)">{{blogs.blog.title}}</a><span id="blogdate">{{blogs.blog.date}}</span></li>
+    <li ng-repeat="blogs in getResult.slice().reverse()" ng-hide="showContent"><a ng-click="toggleContent(blogs)">{{blogs.blog.title}}</a><span id="blogdate">{{blogs.blog.date}}</span></li>
 </ol>
 <div class="blogContent" ng-show="showContent">
     <h1 id="title">{{title}}</h1>
