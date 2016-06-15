@@ -49,9 +49,10 @@ app.controller('ProjectController', function ($scope){
 app.controller('BlogController', function($scope, $http){
     $scope.showContent = false;
    $http.get("https://api.mongolab.com/api/1/databases/blog/collections/posts?apiKey=1JGFkEE1S4UmGb79ypO0VXoSzJtGmUj3").success(function(data) {
-       $scope.getResult = data;
+       $scope.getResult = data
     });
     $scope.toggleContent = function(data){
+        console.log(data);
         $scope.title = data.blog.title;
         $scope.content = data.blog.content;
         $scope.showContent = true;
