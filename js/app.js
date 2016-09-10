@@ -19,6 +19,11 @@ app.config(function($routeProvider) {
 
 app.controller('ProjectController', function ($scope){
     $scope.project = {
+        SpotiKeys: {
+            "title": "SpotiKeys",
+            "description": "Bind your own custom global hotkeys to control Spotify.",
+            "link": "https://github.com/ivanshen/SpotiKeys/releases"
+        },
         BabyBuddy: {
             "title": "BabyBuddy",
             "description": 'An educational resource for pregnant women.',
@@ -27,7 +32,7 @@ app.controller('ProjectController', function ($scope){
         SwapWithMe: {
             "title": 'SwapWithMe',
             "description": 'A platform for students to sell or swap their textbooks with other students.',
-            link: 'http://swapwithme.meteor.com'
+            link: 'https://github.com/paulxuca/Item-Swap'
         },
         HelpMeUp: {
             "title": 'Help Me Up',
