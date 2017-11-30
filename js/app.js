@@ -27,7 +27,7 @@ app.controller('ProjectController', function ($scope){
         BabyBuddy: {
             "title": "BabyBuddy",
             "description": 'An educational resource for pregnant women.',
-            "link": 'http://ivanshen.me/babybuddy'
+            "link": 'http://ivanshen.github.io/babybuddy'
         },
         SwapWithMe: {
             "title": 'SwapWithMe',
@@ -47,7 +47,7 @@ app.controller('ProjectController', function ($scope){
         Se7en: {
             "title":"Se7en",
             "description":"A fun and addicting web game to test your arithmetic speed!",
-            "link":"http://ivanshen.me/Se7en/"
+            "link":"http://ivanshen.github.io/Se7en/"
         }
     };
 });
