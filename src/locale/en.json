@@ -1,0 +1,47 @@
+{
+	"about": {
+		"header": "About Me",
+		"summary_part_1": "I am a software developer intern at ",
+		"ibm_link": "IBM ",
+		"summary_part_2": "working on ",
+		"va_link": "Voice Agent with Watson. ",
+		"summary_part_3": "I am also a student at University of Toronto studying Computer Science. I will be graduating during spring 2020.",
+		"github_link": "Github",
+		"linkedin_link": "Linkedin"
+	},
+	"experience": {
+		"header": "Work Experience",
+		"ibm_part_1": "From May 2017 until August 2018, I am a software developer intern at ",
+		"ibm_link": "IBM ",
+		"ibm_part_2": "working on ",
+		"va_link": "Voice Agent with Watson.",
+		"tbs_part_1": "From May 2016 – September 2016, I was a software developer intern at the ",
+		"tbs_link": "Treasury Board Secretariat ",
+		"tbs_part_2": " working on a new application for congratulatory certificates.",
+		"tbs_part_3": "I worked on developing the user interface which included tables to organize and display approximately 80,000 requests per year.",
+		"in_depth_1": "For more detailed descriptions of my work experience, please see my ",
+		"in_depth_2": " résumé"
+	},
+	"projects": {
+		"header": "Projects",
+		"sub_header": "A compilation of projects that I've worked on over the years.",
+		"spotikeys_header": "SpotiKeys",
+		"spotikeys_desc": "Bind your own custom global hotkeys to control Spotify.",
+		"react_header": "React Boilerplate",
+		"react_desc": "A multi-page React application boilerplate with Node.js back end.",
+		"baby_header": "BabyBuddy",
+		"baby_desc": "An educational resource for pregnant women.",
+		"swap_header": "Swap with Me",
+		"swap_desc": "A platform for students to sell or swap their textbooks with other students.",
+		"help_header": "Help me Up",
+		"help_desc": "A patient monitoring Android app that uses a neural net to alert caregivers of a patient's fall and circumstances.",
+		"who_header": "Who Are You Really?",
+		"who_desc": "A learning styles quiz that breaks down a user’s best learning styles in percentages.",
+		"se7en_header": "Se7en",
+		"se7en_desc": "A fun and addicting web game to test your arithmetic speed!"
+	},
+	"resume": {
+		"header": "Résumé",
+		"desc": "Please see my résumé here."
+	}
+}
