@@ -1,6 +1,5 @@
 import {Component, Input, ElementRef} from '@angular/core';
 import {Accordion} from 'carbon-components';
-Accordion.init()
 @Component({
   selector: 'accordion',
   templateUrl: './accordion.template.html'
@@ -11,4 +10,13 @@ export class AccordionComponent {
 	constructor(elm: ElementRef){
     	this.header = elm.nativeElement.getAttribute('header');
   	}
+  	isExpanded = false;
+
+    toggle(newValue?) {
+        if (newValue !== undefined) {
+            this.isExpanded = newValue;
+        } else {
+            this.isExpanded = !this.isExpanded;
+        }
+    }
 }
