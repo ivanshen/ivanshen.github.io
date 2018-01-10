@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~carbon-components/css/carbon-components.min.css';
+
+a {
+	color: black;
+}
+.accordion {
+	width: 50%;
+    height: 50%;
+    position: absolute;
+    top:50%;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
