@@ -23,7 +23,7 @@
     "@angular/router": "^5.0.0",
     "@ngx-translate/core": "^9.0.2",
     "@ngx-translate/http-loader": "^2.0.1",
-    "angular-cli-ghpages": "^0.5.2",
+    "angular-cli-ghpages": "^1.0.5",
     "carbon-components": "^8.2.0",
     "core-js": "^2.4.1",
     "rxjs": "^5.5.2",
